@@ -1,0 +1,141 @@
+AAKASH NAIR
+Software Engineer | Backend Development | GenAI | Automation Engineering
+
+Kerala, India
+Email: 7akashnair@gmail.com
+Phone: +91 9744683738
+
+
+PROFESSIONAL SUMMARY
+
+Software Engineer with 1.5+ years at TCS delivering enterprise IBM solutions across incident intelligence, AI-assisted automation, log analytics, and infrastructure cost optimization. Skilled in Python automation, backend integrations, Generative AI, and workflow orchestration, with a track record of shipping accepted production improvements and measurable efficiency gains.
+
+
+PROFESSIONAL EXPERIENCE
+
+Tata Consultancy Services (TCS) - Systems Engineer
+December 2024 - Present
+
+IBM Incident Intelligence & Automation
+
+- Designed and shipped 4+ AI-assisted workflows on IBM Copilot API Platform for deployment risk scoring, incident analysis, troubleshooting automation, runbook intelligence, and log analysis.
+
+- Engineered intelligent RCA workflows leveraging historical incidents, problem records, and parent-child incident mapping to improve contextual issue analysis and incident triaging.
+
+- Developed a Python-based scraping solution to extract troubleshooting steps from operational runbooks and generate deduplicated service-level labels across workflows.
+
+- Created a knowledge base from historical problem data to strengthen root cause identification and incident troubleshooting efficiency.
+
+- Architected an end-to-end log retrieval and analysis solution using APIs and optimized it through ICL node integration for improved operational efficiency.
+
+- Integrated log analysis and incident intelligence workflows into a larger Slack-based incident automation system, where incident-triggered cron jobs automatically executed related flows and populated actionable insights within incident threads.
+
+- Delivered 8+ accepted technical and process improvements spanning architecture optimization, backend fixes, regional processing strategies, and JSON standardization initiatives.
+
+
+IBM ICL Cost Efficiency Initiative
+
+- Built Python automation scripts processing operational data from multiple endpoints and transforming JSON into structured CSV reports.
+
+- Automated daily multi-region log report generation via VSI job executions for continuous monitoring and analysis.
+
+- Identified applications and log streams for lower-tier migration, reducing infrastructure and storage costs; configured associated policies and rule groups.
+
+- Automated policy and rule-group uploads to IBM COS buckets for dashboard integration.
+
+- Built Docker images and ran region-specific analytics jobs.
+
+
+TECHNICAL SKILLS
+
+Programming Languages
+- Python
+- SQL
+- JavaScript
+
+AI & Automation
+- Generative AI
+- Prompt Engineering
+- RAG (Retrieval-Augmented Generation)
+- n8n
+- MCP
+
+Backend & Tools
+- REST APIs
+- Docker
+- Git
+
+Cloud & Data
+- Log Analysis
+- Data Pipelines
+- IBM COS Buckets
+
+
+EDUCATION
+
+B.Tech, Computer Science & Engineering
+Muthoot Institute of Technology and Science
+2020 - 2024
+CGPA: 8.61
+
+Class XII
+Chinmaya Vidyalaya
+Percentage: 92.2%
+
+Class X
+St. Paul's English Medium School
+CGPA: 10
+
+
+PERSONAL PROJECTS
+
+AI Portfolio Assistant
+- RAG-based chatbot integrated into a portfolio website for contextual query handling.
+
+MCP-Based AI Workflows
+- AI workflow automation using MCP-style architecture with Python SDK integrations.
+
+Hackathon Project Replication
+- Recreated and enhanced an award-winning solution using modern AI workflow architecture.
+
+
+ACADEMIC PROJECTS
+
+AI Striker
+- AI-based sports and fitness training platform for cricket, yoga, and gym.
+
+Yoga Sage
+- AI-powered yoga training web application with pose-driven feedback.
+
+IEEE Victoria Chatbot
+- Contributed to chatbot development and deployment for IEEE.
+
+
+CERTIFICATIONS & ACHIEVEMENTS
+
+- TCS Certified:
+  - Generative AI (E1)
+  - Core Java (E2)
+  - Engineering Practices (E1)
+
+- Won 2nd Prize in TCS AI Friday Hackathon.
+
+- Published IEEE RAICS paper applying K-Means clustering.
+
+- Recipient of the Unnathi Award for academic excellence.
+
+- QA Automation Workshop - BigBinary.
+
+
+INTERNSHIP
+
+Python Intern - Emsyne Technologies Pvt. Ltd.
+
+- Hands-on experience in Python scripting, application logic, and software development practices.
+
+- Duration: 2-week internship.
+
+
+LANGUAGES
+
+(No languages specified in the resume.)
