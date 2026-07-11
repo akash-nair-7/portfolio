@@ -164,7 +164,7 @@ export const experience = [
 ];
 
 export const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:aakash@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/akash-nair-7", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/aakash-nair77", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:7akashnair@gmail.com", label: "Email" },
 ];
