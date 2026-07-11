@@ -2,6 +2,7 @@ import { useEffect, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { personalInfo } from "@/data/portfolio";
 import { ChevronDown } from "lucide-react";
+import Chatbot from "@/components/Chatbot";
 
 const Hero = () => {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
@@ -74,43 +75,54 @@ const Hero = () => {
       />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-3xl">
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="font-heading text-5xl md:text-7xl font-bold tracking-tight text-gradient mb-4"
-        >
-          {personalInfo.name}
-        </motion.h1>
+      <div className="relative z-10 grid w-full max-w-6xl items-center gap-10 px-6 py-24 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
+        <div className="text-center lg:text-left">
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="font-heading text-5xl md:text-7xl font-bold tracking-tight text-gradient mb-4"
+          >
+            {personalInfo.name}
+          </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl mx-auto"
-        >
-          {personalInfo.tagline}
-        </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl mx-auto lg:mx-0"
+          >
+            {personalInfo.tagline}
+          </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex flex-wrap justify-center gap-4 lg:justify-start"
+          >
+            <button
+              onClick={() => scrollTo("projects")}
+              className="px-6 py-3 bg-primary text-primary-foreground font-heading text-sm font-semibold rounded-lg glow-blue hover:glow-blue-strong transition-all duration-300 hover:scale-105"
+            >
+              View Projects
+            </button>
+            <button
+              onClick={() => scrollTo("contact")}
+              className="px-6 py-3 border border-primary/40 text-primary font-heading text-sm font-semibold rounded-lg hover:bg-primary/10 transition-all duration-300 hover:scale-105"
+            >
+              Contact Me
+            </button>
+          </motion.div>
+        </div>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="flex flex-wrap justify-center gap-4"
+          initial={{ opacity: 0, y: 24, scale: 0.98 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.55 }}
+          className="w-full"
         >
-          <button
-            onClick={() => scrollTo("projects")}
-            className="px-6 py-3 bg-primary text-primary-foreground font-heading text-sm font-semibold rounded-lg glow-blue hover:glow-blue-strong transition-all duration-300 hover:scale-105"
-          >
-            View Projects
-          </button>
-          <button
-            onClick={() => scrollTo("contact")}
-            className="px-6 py-3 border border-primary/40 text-primary font-heading text-sm font-semibold rounded-lg hover:bg-primary/10 transition-all duration-300 hover:scale-105"
-          >
-            Contact Me
-          </button>
+          <Chatbot />
         </motion.div>
       </div>
 

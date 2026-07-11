@@ -4,7 +4,6 @@ import Education from "@/components/Education";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
-import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -18,7 +17,6 @@ const Index = () => {
       <footer className="py-8 text-center text-xs text-muted-foreground border-t border-border">
         © {new Date().getFullYear()} Aakash Nair. All rights reserved.
       </footer>
-      <Chatbot />
     </div>
   );
 };

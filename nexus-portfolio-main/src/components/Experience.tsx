@@ -36,15 +36,26 @@ const Experience = () => (
               <h3 className="font-heading text-lg font-semibold text-foreground mb-1">
                 {item.role}
               </h3>
-              <p className="text-sm text-primary/80 mb-4">{item.company}</p>
-              <ul className="space-y-2">
-                {item.responsibilities.map((r, j) => (
-                  <li key={j} className="text-sm text-muted-foreground flex gap-2">
-                    <span className="text-primary mt-1.5 shrink-0">▹</span>
-                    <span>{r}</span>
-                  </li>
+              <p className="text-sm text-primary/80 mb-4">
+                {item.company} · {item.client}
+              </p>
+              <div className="space-y-5">
+                {item.projects.map((project) => (
+                  <div key={project.title}>
+                    <h4 className="mb-3 text-sm font-semibold text-foreground">
+                      {project.title}
+                    </h4>
+                    <ul className="space-y-2">
+                      {project.responsibilities.map((responsibility, j) => (
+                        <li key={j} className="text-sm text-muted-foreground flex gap-2">
+                          <span className="text-primary mt-1.5 shrink-0">▹</span>
+                          <span>{responsibility}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           </motion.div>
         ))}
